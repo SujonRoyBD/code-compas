@@ -6,7 +6,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/app/components/ui/accordion"
+} from "@/components/ui/accordion"
 import ArrowTop from '../icon/ArrowTopIcon'
 
 export default function Faq() {

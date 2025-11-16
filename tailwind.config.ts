@@ -1,10 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	darkMode: ["class"],
-	content: [
-		"./app/**/*.{js,ts,jsx,tsx}",
-		"./components/**/*.{js,ts,jsx,tsx}",
-	],
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+    safelist: [
+    // উদাহরণ স্বরূপ
+    'text-red-500',
+    'bg-blue-500',
+    // তোমার ডাইনামিক class গুলো
+  ],
 	theme: {
 		extend: {
 			container: {

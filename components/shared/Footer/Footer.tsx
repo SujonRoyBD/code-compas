@@ -1,4 +1,4 @@
-import ArrowTop from '@/app/components/icon/ArrowTopIcon'
+import ArrowTop from '@/components/icon/ArrowTopIcon'
 import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'

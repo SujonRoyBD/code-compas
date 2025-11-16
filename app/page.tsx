@@ -1,17 +1,17 @@
 import React from 'react'
-import BannerPage from './components/banner/Banner'
-import Carasoule from './components/carasoulePage/Carasoule'
-import OurService from '@/app/components/ourService/page'
-import AboutUs from '@/app/components/about-us/page'
-import OurUnique from '@/app/components/Our-Unique/OurUnique'
-import Marketing from '@/app/components/marketing/marketing'
-import Carasole2 from '@/app/components/carosloe2/Carosole2'
-import Process from '@/app/components/process/Process'
-import Results from '@/app/components/results/page'
-import Testimonials from '@/app/components/testimonials/Testimonials'
-import Teams from '@/app/components/teams/Teams'
-import Faq from '@/app/components/Faq/Faq'
-import ContactUs from '@/app/components/contactUs/ContactUs'
+import BannerPage from '../components/banner/Banner'
+import Carasoule from '../components/carasoulePage/Carasoule'
+import OurService from '@/components/ourService/page'
+import AboutUs from '@/components/about-us/page'
+import OurUnique from '@/components/Our-Unique/OurUnique'
+import Marketing from '@/components/marketing/marketing'
+import Carasole2 from '@/components/carosloe2/Carosole2'
+import Process from '@/components/process/Process'
+import Results from '@/components/results/page'
+import Testimonials from '@/components/testimonials/Testimonials'
+import Teams from '@/components/teams/Teams'
+import Faq from '@/components/Faq/Faq'
+import ContactUs from '@/components/contactUs/ContactUs'
 
 export default function Website() {
     return (
@@ -29,6 +29,7 @@ export default function Website() {
             <Teams />
             <Faq />
             <ContactUs />
+           
 
         </div>
     )

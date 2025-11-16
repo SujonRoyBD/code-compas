@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Footer from "./components/shared/Footer/Footer";
-import Navbar from "./components/shared/Navbar/Navbar";
+import Footer from "../components/shared/Footer/Footer";
+import Navbar from "../components/shared/Navbar/Navbar";
 
 // Geist Sans
 const geistSans = localFont({
