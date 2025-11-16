@@ -20,7 +20,7 @@ export default function Faq() {
               <AwardIcon />
               <p className="text-gray-700 font-semibold uppercase tracking-wide">FAQ</p>
             </div>
-            <h3 className="text-[#1D1F2C] font-[HelveticaNeue] text-[32px] md:text-[36px] lg:text-[48px] font-medium leading-[1.36] capitalize">
+            <h3 className="text-[#1D1F2C] d font-[HelveticaNeue] text-[32px] md:text-[36px] lg:text-[48px] font-medium leading-[1.36] capitalize">
               Frequently  <span className="text-[#71D0FF]">Asked</span> Questions
             </h3>
           </div>
