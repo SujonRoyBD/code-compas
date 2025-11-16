@@ -1,5 +1,5 @@
 import React from 'react'
-import Website from './(Client)/page'
+import Website from './(client)/page'
 
 export default function Home() {
   return (
