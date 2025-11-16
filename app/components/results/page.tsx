@@ -58,22 +58,22 @@ export default function Results() {
                     </div>
 
                     {/* Middle Border Icon */}
-                   <div>
-                     {/* Desktop */}
-                     <div className="hidden md:block">
-                       <Image
-                         src="/Images/Line.png"
-                         alt="line"
-                         width={12}
-                         height={10}
-                       />
-                     </div>
-                   
-                     {/* Mobile */}
-                       <div className='border-2 border-[#71D0FF] rounded-lg block md:hidden'>
-                         
-                       </div>
-                   </div>
+                    <div>
+                        {/* Desktop */}
+                        <div className="hidden md:block">
+                            <Image
+                                src="/Images/Line.png"
+                                alt="line"
+                                width={12}
+                                height={10}
+                            />
+                        </div>
+
+                        {/* Mobile */}
+                        <div className='border-2 border-[#71D0FF] rounded-lg block md:hidden'>
+
+                        </div>
+                    </div>
 
                     {/* Right Paragraph */}
                     <div className="w-full">

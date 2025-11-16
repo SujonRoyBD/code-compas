@@ -11,7 +11,7 @@ export default function Navbar() {
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
                 {/* Logo */}
                 <div className="text-xl font-bold">
-                    <Image src="/Images/logo.png" alt="logo" height={48} width={300}/>
+                    <Image src="/Images/logo.png" alt="logo" height={48} width={300} />
                 </div>
 
                 {/* Desktop Menu */}

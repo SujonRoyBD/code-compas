@@ -96,28 +96,28 @@ export default function OurService() {
             </h3>
           </div>
 
-<div>
-  {/* Desktop */}
-  <div className="hidden md:block">
-    <Image
-      src="/Images/Line.png"
-      alt="line"
-      width={2}
-      height={90}
-    />
-  </div>
+          <div>
+            {/* Desktop */}
+            <div className="hidden md:block">
+              <Image
+                src="/Images/Line.png"
+                alt="line"
+                width={2}
+                height={90}
+              />
+            </div>
 
-  {/* Mobile */}
-    <div className='border-2 border-[#71D0FF] rounded-lg block md:hidden'>
-      
-    </div>
-</div>
+            {/* Mobile */}
+            <div className='border-2 border-[#71D0FF] rounded-lg block md:hidden'>
+
+            </div>
+          </div>
 
 
           {/* Right Paragraph */}
           <div className="w-full">
             <p className="text-gray-600 leading-relaxed ">
-            Our team consists of industry experts with diverse backgrounds, all working together to deliver outstanding results.
+              Our team consists of industry experts with diverse backgrounds, all working together to deliver outstanding results.
             </p>
           </div>
         </div>

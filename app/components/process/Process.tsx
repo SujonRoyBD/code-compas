@@ -28,22 +28,22 @@ export default function Process() {
           </div>
 
           {/* Middle Border Icon */}
-         <div>
-           {/* Desktop */}
-           <div className="hidden md:block">
-             <Image
-               src="/Images/Line.png"
-               alt="line"
-               width={2}
-               height={90}
-             />
-           </div>
-         
-           {/* Mobile */}
-             <div className='border-2 border-[#71D0FF] rounded-lg block md:hidden'>
-               
-             </div>
-         </div>
+          <div>
+            {/* Desktop */}
+            <div className="hidden md:block">
+              <Image
+                src="/Images/Line.png"
+                alt="line"
+                width={2}
+                height={90}
+              />
+            </div>
+
+            {/* Mobile */}
+            <div className='border-2 border-[#71D0FF] rounded-lg block md:hidden'>
+
+            </div>
+          </div>
 
           {/* Right Paragraph */}
           <div className="w-full">
@@ -113,7 +113,7 @@ export default function Process() {
             </AccordionItem>
             <AccordionItem value="item-4" className='border-none pb-[80px]'>
               <AccordionTrigger className="text-[#4A4C56]   font-helvetica text-[28px] md:text-[36px] font-normal leading-[1.2] tracking-[0.72px]  bg-white p-4 md:p-8 rounded-lg border-none">4. Training & Handover
-                
+
               </AccordionTrigger>
               <AccordionContent className='bg-white px-8'>
                 Yes. It adheres to the WAI-ARIA design pattern.

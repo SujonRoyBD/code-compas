@@ -66,47 +66,47 @@ export default function Testimonials() {
   return (
     <div className="bg-[#F5F9FF]">
       <div className="container mx-auto py-10 md:py-20">
-           <div className="grid grid-cols-1  md:grid-cols-[1fr_3px_1fr] gap-[48px]  gap-6 items-center">
-                            {/* Left Section */}
-                            <div className="w-full ">
-                                <div className="flex items-center gap-3 ">
-                                    <AwardIcon />
-                                    <p className="text-gray-700 font-semibold uppercase tracking-wide">Testimonials</p>
-                                </div>
-                                <h3 className="text-[#1D1F2C] font-[HelveticaNeue] text-8 md:text-[36px] lg:text-[48px] font-medium leading-[1.36] capitalize">
-                                    Our Clients  <span className="text-[#71D0FF]">Feedback</span>
-                                </h3>
-                            </div>
-        
-                            {/* Middle Border Icon */}
-                           <div>
-                             {/* Desktop */}
-                             <div className="hidden md:block">
-                               <Image
-                                 src="/Images/Line.png"
-                                 alt="line"
-                                 width={12}
-                                 height={90}
-                                 className=""
-                               />
-                             </div>
-                           
-                             {/* Mobile */}
-                               <div className='border-2 border-[#71D0FF] rounded-lg block md:hidden'>
-                                 
-                               </div>
-                           </div>
-        
-                            {/* Right Paragraph */}
-                            <div className="w-full">
-                                <p className="text-[#4A4C56] font-[GeistMono] text-4 md:text-[20px] font-normal leading-[1.6]">
-                                    Hear what our clients say genuine experiences, trusted results, and lasting partnerships built on success.
-                                </p>
-                                <button className='text-[#71D0FF] mt-6'>
-                                    see more...
-                                </button>
-                            </div>
-                        </div>
+        <div className="grid grid-cols-1  md:grid-cols-[1fr_3px_1fr] gap-[48px]  gap-6 items-center">
+          {/* Left Section */}
+          <div className="w-full ">
+            <div className="flex items-center gap-3 ">
+              <AwardIcon />
+              <p className="text-gray-700 font-semibold uppercase tracking-wide">Testimonials</p>
+            </div>
+            <h3 className="text-[#1D1F2C] font-[HelveticaNeue] text-8 md:text-[36px] lg:text-[48px] font-medium leading-[1.36] capitalize">
+              Our Clients  <span className="text-[#71D0FF]">Feedback</span>
+            </h3>
+          </div>
+
+          {/* Middle Border Icon */}
+          <div>
+            {/* Desktop */}
+            <div className="hidden md:block">
+              <Image
+                src="/Images/Line.png"
+                alt="line"
+                width={12}
+                height={90}
+                className=""
+              />
+            </div>
+
+            {/* Mobile */}
+            <div className='border-2 border-[#71D0FF] rounded-lg block md:hidden'>
+
+            </div>
+          </div>
+
+          {/* Right Paragraph */}
+          <div className="w-full">
+            <p className="text-[#4A4C56] font-[GeistMono] text-4 md:text-[20px] font-normal leading-[1.6]">
+              Hear what our clients say genuine experiences, trusted results, and lasting partnerships built on success.
+            </p>
+            <button className='text-[#71D0FF] mt-6'>
+              see more...
+            </button>
+          </div>
+        </div>
 
         <Swiper
           modules={[Autoplay, Pagination]}
@@ -128,50 +128,50 @@ export default function Testimonials() {
           className="pb-12"
         >
           {data.map((item) => (
-<SwiperSlide key={item.id}>
-  <div
-    className="p-6 rounded-xl shadow-sm border border-gray-100 mt-12 bg-white relative overflow-hidden"
-    style={
-      item.id === 3
-        ? {
-            backgroundImage: `url(${item.desc})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            height: "390px",
-          }
-        : {}
-    }
-  >
-    {/* Profile Image */}
-    <div className="flex items-center gap-3 mb-4 relative z-10">
-      <Image
-        src={item.profile}
-        alt={item.name}
-        width={50}
-        height={50}
-        className="rounded-full"
-      />    
-    </div>
+            <SwiperSlide key={item.id}>
+              <div
+                className="p-6 rounded-xl shadow-sm border border-gray-100 mt-12 bg-white relative overflow-hidden"
+                style={
+                  item.id === 3
+                    ? {
+                      backgroundImage: `url(${item.desc})`,
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                      height: "390px",
+                    }
+                    : {}
+                }
+              >
+                {/* Profile Image */}
+                <div className="flex items-center gap-3 mb-4 relative z-10">
+                  <Image
+                    src={item.profile}
+                    alt={item.name}
+                    width={50}
+                    height={50}
+                    className="rounded-full"
+                  />
+                </div>
 
-    {/* If id = 3 → no text */}
-    {item.id !== 3 && (
-      <p className="text-[#1D1F2C] font-[GeistMono] text-[20px] font-normal leading-[1.6] mb-[106px]">
-        {item.desc}
-      </p>
-    )}
+                {/* If id = 3 → no text */}
+                {item.id !== 3 && (
+                  <p className="text-[#1D1F2C] font-[GeistMono] text-[20px] font-normal leading-[1.6] mb-[106px]">
+                    {item.desc}
+                  </p>
+                )}
 
-    {/* Name + Title */}
-    <div className={`relative z-10 ${item.id === 3 ? "mt-[250px]" : ""}`}>
-      <p className="text-[#1D1F2C] font-semibold">{item.name}</p>
-      <p className="text-[#71D0FF] text-sm">{item.title}</p>
-    </div>
+                {/* Name + Title */}
+                <div className={`relative z-10 ${item.id === 3 ? "mt-[250px]" : ""}`}>
+                  <p className="text-[#1D1F2C] font-semibold">{item.name}</p>
+                  <p className="text-[#71D0FF] text-sm">{item.title}</p>
+                </div>
 
-    {/* Dark overlay for better text visibility (optional, but recommended) */}
-    {item.id === 3 && (
-      <div className="absolute inset-0 bg-black/20 rounded-xl"></div>
-    )}
-  </div>
-</SwiperSlide>
+                {/* Dark overlay for better text visibility (optional, but recommended) */}
+                {item.id === 3 && (
+                  <div className="absolute inset-0 bg-black/20 rounded-xl"></div>
+                )}
+              </div>
+            </SwiperSlide>
 
 
 

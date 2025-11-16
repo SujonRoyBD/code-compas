@@ -12,48 +12,48 @@ const data = [
 export default function Banner() {
   return (
     <div className="bg-[#F1F1F1]">
-        <div className="container pt-[80px] pb-[80px]">
-      <div className="grid grid-cols-1 md:grid-cols-7 gap-0 md:gap-2">
+      <div className="container pt-[80px] pb-[80px]">
+        <div className="grid grid-cols-1 md:grid-cols-7 gap-0 md:gap-2">
 
-        {/* LEFT SECTION */}
-        <div className="md:col-span-3">
+          {/* LEFT SECTION */}
+          <div className="md:col-span-3">
 
-          {/* ⭐ Small Device Carousel */}
-          <div className="block md:hidden overflow-hidden">
-            <div className="flex gap-3 animate-slide">
-              <button className="px-4  py-3 bg-[#FBFBFC] rounded-full text-[16px]">AI agents</button>
-              <button className="px-4 py-3 bg-[#FBFBFC] rounded-full text-[16px]">Connecting Systems</button>
-              <button className="px-4 py-3 bg-[#FBFBFC] rounded-full">Building API </button>
-              <button className="px-4 py-3 bg-[#FBFBFC] rounded-full">Custom Software</button>
-              <button className="px-4 py-3 bg-[#FBFBFC] rounded-full">Customer Portals</button>
-              <button className="px-4 py-3 bg-[#FBFBFC] rounded-full">CRMs</button>
+            {/* ⭐ Small Device Carousel */}
+            <div className="block md:hidden overflow-hidden">
+              <div className="flex gap-3 animate-slide">
+                <button className="px-4  py-3 bg-[#FBFBFC] rounded-full text-[16px]">AI agents</button>
+                <button className="px-4 py-3 bg-[#FBFBFC] rounded-full text-[16px]">Connecting Systems</button>
+                <button className="px-4 py-3 bg-[#FBFBFC] rounded-full">Building API </button>
+                <button className="px-4 py-3 bg-[#FBFBFC] rounded-full">Custom Software</button>
+                <button className="px-4 py-3 bg-[#FBFBFC] rounded-full">Customer Portals</button>
+                <button className="px-4 py-3 bg-[#FBFBFC] rounded-full">CRMs</button>
+              </div>
+            </div>
+
+            {/* ⭐ MD+ GRID */}
+            <div className="hidden md:grid grid-cols-2 lg:grid-cols-3 gap-9 md:gap-3 w-full justify-between">
+              <button className="px-2 py-3 bg-[#FBFBFC] rounded-full">AI agents</button>
+              <button className="px py-3 bg-[#FBFBFC] rounded-full">Connecting Systems</button>
+              <button className="px-2 py-3 bg-[#FBFBFC] rounded-full">Building API </button>
+              <button className="px-2 py-3 bg-[#FBFBFC] rounded-full">Custom Software</button>
+              <button className="px-2 py-3 bg-[#FBFBFC] rounded-full">Customer Portals</button>
+              <button className="px-2 py-3 bg-[#FBFBFC] rounded-full">CRMs</button>
             </div>
           </div>
 
-          {/* ⭐ MD+ GRID */}
-          <div className="hidden md:grid grid-cols-2 lg:grid-cols-3 gap-9 md:gap-3 w-full justify-between">
-            <button className="px-2 py-3 bg-[#FBFBFC] rounded-full">AI agents</button>
-            <button className="px py-3 bg-[#FBFBFC] rounded-full">Connecting Systems</button>
-            <button className="px-2 py-3 bg-[#FBFBFC] rounded-full">Building API </button>
-            <button className="px-2 py-3 bg-[#FBFBFC] rounded-full">Custom Software</button>
-            <button className="px-2 py-3 bg-[#FBFBFC] rounded-full">Customer Portals</button>
-            <button className="px-2 py-3 bg-[#FBFBFC] rounded-full">CRMs</button>
+          {/* MIDDLE LINE */}
+          <div className=" md:col-span-1 flex items-center justify-center rotate-90 md:rotate-0 rounded-lg">
+            <Image src="/Images/Line.png" alt='line' width={4} height={2} className="rounded-lg" />
+          </div>
+
+          {/* RIGHT SECTION */}
+          <div className="md:col-span-3">
+            We are done with IT professionals who only understand themselves. You deserve solutions that work for you. No lengthy processes, vague advice, or empty promises, but real progress.
           </div>
         </div>
 
-        {/* MIDDLE LINE */}
-        <div className=" md:col-span-1 flex items-center justify-center rotate-90 md:rotate-0 rounded-lg">
-         <Image src="/Images/Line.png" alt='line' width={4} height={2} className="rounded-lg"/>
-        </div>
-
-        {/* RIGHT SECTION */}
-        <div className="md:col-span-3">
-         We are done with IT professionals who only understand themselves. You deserve solutions that work for you. No lengthy processes, vague advice, or empty promises, but real progress.
-        </div>
-      </div>
-
-      {/* ⭐ Carousel Animation CSS */}
-      <style>{`
+        {/* ⭐ Carousel Animation CSS */}
+        <style>{`
         @keyframes slide {
           0%   { transform: translateX(0); }
           100% { transform: translateX(-60%); }
@@ -64,33 +64,33 @@ export default function Banner() {
         }
       `}</style>
 
-      {/* IMAGE + STATS */}
-      <div className="mt-10 flex flex-col gap-6 md:flex-row">
-        <div className="w-full md:w-2/3 rounded-lg">
-          <Image
-            src="/Images/banner.jpg"
-            alt="banner"
-            height={100}
-            width={954}
-            className="h-full w-full flex justify-center  object-cover rounded-lg"  
-          /> 
+        {/* IMAGE + STATS */}
+        <div className="mt-10 flex flex-col gap-6 md:flex-row">
+          <div className="w-full md:w-2/3 rounded-lg">
+            <Image
+              src="/Images/banner.jpg"
+              alt="banner"
+              height={100}
+              width={954}
+              className="h-full w-full flex justify-center  object-cover rounded-lg"
+            />
+          </div>
+
+          <div className="bg-white flex md:flex-col gap-4 w-full md:w-1/3 p-8 bg-[#FFFFFF] rounded-lg">
+            {data.map((item) => (
+              <div key={item.id} className="py-8">
+                <p className="font-sans font-medium text-[40px] leading-none">
+                  {item.price}
+                </p>
+                <p className="mt-3 font-mono text-[18px] text-[#4A4C56]">
+                  {item.description}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
 
-        <div className="bg-white flex md:flex-col gap-4 w-full md:w-1/3 p-8 bg-[#FFFFFF] rounded-lg">
-          {data.map((item) => (
-            <div key={item.id} className="py-8">
-              <p className="font-sans font-medium text-[40px] leading-none">
-                {item.price}
-              </p>
-              <p className="mt-3 font-mono text-[18px] text-[#4A4C56]">
-                {item.description}
-              </p>
-            </div>
-          ))}
-        </div>
       </div>
-
-    </div>
     </div>
   );
 }

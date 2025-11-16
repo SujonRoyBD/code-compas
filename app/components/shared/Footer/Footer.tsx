@@ -9,40 +9,40 @@ export default function Footer() {
             <div className='container'>
                 <div className="flex flex-col md:flex-row justify-between pt-[76px] gap-10">
 
-  {/* Left Section */}
-  <div>
-    <h3 className="text-[32px] md:text-[56px] leading-tight">
-      Let’s Work <br /> Together
-    </h3>
+                    {/* Left Section */}
+                    <div>
+                        <h3 className="text-[32px] md:text-[56px] leading-tight">
+                            Let’s Work <br /> Together
+                        </h3>
 
-    <div className="flex items-center mt-8">
-      <button className="bg-[#71D0FF] px-6 py-[16px] rounded-full text-white">
-        Let’s Talk
-      </button>
+                        <div className="flex items-center mt-8">
+                            <button className="bg-[#71D0FF] px-6 py-[16px] rounded-full text-white">
+                                Let’s Talk
+                            </button>
 
-      <div className="border-4 border-[#71D0FF] rounded-full p-4 -ml-3">
-        <ArrowTop />
-      </div>
-    </div>
-  </div>
+                            <div className="border-4 border-[#71D0FF] rounded-full p-4 -ml-3">
+                                <ArrowTop />
+                            </div>
+                        </div>
+                    </div>
 
-  {/* Right Section (Social Icons) */}
-  <div className="space-y-4 flex md:block gap-3  md:justify-end">
-    <div className="bg-white p-2 rounded-full flex justify-center items-center mt-3 md:mt-0">
-      <Facebook className="text-black " />
-    </div>
-    <div className="bg-white p-2 rounded-full">
-      <Twitter className="text-black" />
-    </div>
-    <div className="bg-white p-2 rounded-full">
-      <Linkedin className="text-black" />
-    </div>
-    <div className="bg-white p-2 rounded-full">
-      <Instagram className="text-black" />
-    </div>
-  </div>
+                    {/* Right Section (Social Icons) */}
+                    <div className="space-y-4 flex md:block gap-3  md:justify-end">
+                        <div className="bg-white p-2 rounded-full flex justify-center items-center mt-3 md:mt-0">
+                            <Facebook className="text-black " />
+                        </div>
+                        <div className="bg-white p-2 rounded-full">
+                            <Twitter className="text-black" />
+                        </div>
+                        <div className="bg-white p-2 rounded-full">
+                            <Linkedin className="text-black" />
+                        </div>
+                        <div className="bg-white p-2 rounded-full">
+                            <Instagram className="text-black" />
+                        </div>
+                    </div>
 
-</div>
+                </div>
 
                 <div className='flex flex-col md:flex-row md:gap-6 md:justify-between mt-[100px] '>
                     <div>
