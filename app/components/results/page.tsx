@@ -50,7 +50,7 @@ export default function Results() {
                     <div className="w-full ">
                         <div className="flex items-center gap-3 ">
                             <AwardIcon />
-                            <p className="text-gray-700 font-semibold uppercase tracking-wide">Results</p>
+                            <p className="text-gray-700 s font-semibold uppercase tracking-wide">Results</p>
                         </div>
                         <h3 className="text-[#1D1F2C]  text-[32px] md:text-[36px] lg:text-[48px] font-medium leading-[1.36]  mt-4">
                             Our <span className="text-[#71D0FF]">Results</span><br /> Highlighted
