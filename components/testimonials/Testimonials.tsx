@@ -66,7 +66,7 @@ export default function Testimonials() {
   return (
     <div className="bg-[#F5F9FF]">
       <div className="container mx-auto py-10 md:py-20">
-        <div className="grid grid-cols-1  md:grid-cols-[1fr_3px_1fr] gap-[48px]  gap-6 items-center">
+        <div className="grid grid-cols-1  md:grid-cols-[1fr_3px_1fr]   gap-6 md:gap-[48px] items-center">
           {/* Left Section */}
           <div className="w-full ">
             <div className="flex items-center gap-3 ">
@@ -79,23 +79,22 @@ export default function Testimonials() {
           </div>
 
           {/* Middle Border Icon */}
-          <div>
-            {/* Desktop */}
-            <div className="hidden md:block">
-              <Image
-                src="/Images/Line.png"
-                alt="line"
-                width={12}
-                height={90}
-                className=""
-              />
-            </div>
-
-            {/* Mobile */}
-            <div className='border-2 border-[#71D0FF] rounded-lg block md:hidden'>
-
-            </div>
-          </div>
+           <div>
+                    {/* Desktop */}
+                    <div className="hidden md:block">
+                      <Image
+                        src="/Images/Line.png"
+                        alt="line"
+                        width={3}
+                        height={90}
+                      />
+                    </div>
+        
+                    {/* Mobile */}
+                    <div className=' rounded-lg block md:hidden'>
+                       <Image src="/Images/line2.png.png" alt='line' height={50} width={700}/>
+                    </div>
+                  </div>
 
           {/* Right Paragraph */}
           <div className="w-full">

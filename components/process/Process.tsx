@@ -15,7 +15,7 @@ export default function Process() {
     <div className='bg-[#F5F9FF]'>
       <div className='container '>
         {/* Main Content */}
-        <div className="grid grid-cols-1  md:grid-cols-[1fr_3px_1fr] gap-[48px] py-9 gap-6 items-center">
+        <div className="grid grid-cols-1  md:grid-cols-[1fr_3px_1fr] md:gap-[48px] py-9 gap-6 items-center">
           {/* Left Section */}
           <div className="w-full ">
             <div className="flex items-center gap-3 mb-8">
@@ -28,22 +28,22 @@ export default function Process() {
           </div>
 
           {/* Middle Border Icon */}
-          <div>
-            {/* Desktop */}
-            <div className="hidden md:block">
-              <Image
-                src="/Images/Line.png"
-                alt="line"
-                width={2}
-                height={90}
-              />
-            </div>
-
-            {/* Mobile */}
-            <div className='border-2 border-[#71D0FF] rounded-lg block md:hidden'>
-
-            </div>
-          </div>
+           <div>
+                    {/* Desktop */}
+                    <div className="hidden md:block">
+                      <Image
+                        src="/Images/Line.png"
+                        alt="line"
+                        width={3}
+                        height={90}
+                      />
+                    </div>
+        
+                    {/* Mobile */}
+                    <div className=' rounded-lg block md:hidden'>
+                       <Image src="/Images/line2.png.png" alt='line' height={50} width={700}/>
+                    </div>
+                  </div>
 
           {/* Right Paragraph */}
           <div className="w-full">
@@ -81,7 +81,7 @@ export default function Process() {
 
                       {/* Full Case Study Button */}
                       <div className=''>
-                        <button className="mt-6 border-2 py-2 px-6 rounded-full inline-block cursor-pointer font-medium relative flex justify-center items-center">
+                        <button className="mt-6 border-2 py-2 px-6 rounded-full cursor-pointer font-medium relative flex justify-center items-center">
                           <p>Full Case Study</p> <span className="inline-block ml-2 bg-[#71D0FF] rounded-full p-[10px]"><ArrowTop /></span>
                         </button>
                       </div>

@@ -84,7 +84,7 @@ export default function OurService() {
 
 
         {/* Main Content */}
-        <div className="grid grid-cols-1  md:grid-cols-[1fr_3px_1fr] gap-4 lg:gap-[48px] py-9 gap-6 items-center">
+        <div className="grid grid-cols-1  md:grid-cols-[1fr_3px_1fr]  lg:gap-[48px] py-9 gap-6 items-center">
           {/* Left Section */}
           <div className="w-full  ">
             <div className="flex items-center gap-3 mb-4">
@@ -102,14 +102,14 @@ export default function OurService() {
               <Image
                 src="/Images/Line.png"
                 alt="line"
-                width={2}
+                width={3}
                 height={90}
               />
             </div>
 
             {/* Mobile */}
-            <div className='border-2 border-[#71D0FF] rounded-lg block md:hidden'>
-
+            <div className=' rounded-lg block md:hidden'>
+               <Image src="/Images/line2.png.png" alt='line' height={50} width={700}/>
             </div>
           </div>
 

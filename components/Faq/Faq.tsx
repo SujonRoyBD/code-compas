@@ -26,22 +26,22 @@ export default function Faq() {
           </div>
 
           {/* Middle Border Icon */}
-          <div>
-            {/* Desktop */}
-            <div className="hidden md:block">
-              <Image
-                src="/Images/Line.png"
-                alt="line"
-                width={2}
-                height={90}
-              />
-            </div>
+             <div>
+                      {/* Desktop */}
+                      <div className="hidden md:block">
+                        <Image
+                          src="/Images/Line.png"
+                          alt="line"
+                          width={3}
+                          height={90}
+                        />
+                      </div>
           
-            {/* Mobile */}
-              <div className='border-2 border-[#71D0FF] rounded-lg block md:hidden'>
-                
-              </div>
-          </div>
+                      {/* Mobile */}
+                      <div className=' rounded-lg block md:hidden'>
+                         <Image src="/Images/line2.png.png" alt='line' height={50} width={700}/>
+                      </div>
+                    </div>
 
           {/* Right Paragraph */}
           <div className="w-full">

@@ -45,7 +45,7 @@ export default function Results() {
     return (
         <div className='bg-[#F1F1F1]'>
             <div className='container py-[40px] md:py-[80px]'>
-                <div className="grid grid-cols-1  md:grid-cols-[1fr_3px_1fr] gap-[48px]  gap-6 items-center">
+                <div className="grid grid-cols-1  md:grid-cols-[1fr_3px_1fr] md:gap-[48px]  gap-6 items-center">
                     {/* Left Section */}
                     <div className="w-full ">
                         <div className="flex items-center gap-3 ">
@@ -58,22 +58,22 @@ export default function Results() {
                     </div>
 
                     {/* Middle Border Icon */}
-                    <div>
-                        {/* Desktop */}
-                        <div className="hidden md:block">
-                            <Image
+                   <div>
+                            {/* Desktop */}
+                            <div className="hidden md:block">
+                              <Image
                                 src="/Images/Line.png"
                                 alt="line"
-                                width={12}
-                                height={10}
-                            />
-                        </div>
-
-                        {/* Mobile */}
-                        <div className='border-2 border-[#71D0FF] rounded-lg block md:hidden'>
-
-                        </div>
-                    </div>
+                                width={3}
+                                height={90}
+                              />
+                            </div>
+                
+                            {/* Mobile */}
+                            <div className=' rounded-lg block md:hidden'>
+                               <Image src="/Images/line2.png.png" alt='line' height={50} width={700}/>
+                            </div>
+                          </div>
 
                     {/* Right Paragraph */}
                     <div className="w-full">

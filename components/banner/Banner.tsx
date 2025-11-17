@@ -2,6 +2,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import LineIcon2 from "../icon/LineIcon";
 
 const data = [
   { id: 1, price: "1250+", description: "Project Completed" },
@@ -42,9 +43,26 @@ export default function Banner() {
           </div>
 
           {/* MIDDLE LINE */}
-          <div className=" md:col-span-1 flex items-center justify-center rotate-90 md:rotate-0 rounded-lg">
-            <Image src="/Images/Line.png" alt='line' width={4} height={2} className="rounded-lg" />
+          <div className=" md:col-span-1 flex items-center justify-center  rounded-lg">
+              <div>
+                       {/* Desktop */}
+                       <div className="hidden md:block">
+                         <Image
+                           src="/Images/Line.png"
+                           alt="line"
+                           width={3}
+                           height={90}
+                         />
+                       </div>
+           
+                       {/* Mobile */}
+                       <div className=' rounded-lg block md:hidden py-4'>
+                          <Image src="/Images/line2.png.png" alt='line' height={50} width={700}/>
+                       </div>
+                     </div>
+           
           </div>
+          
 
           {/* RIGHT SECTION */}
           <div className="md:col-span-3">
@@ -76,7 +94,7 @@ export default function Banner() {
             />
           </div>
 
-          <div className="bg-white flex md:flex-col gap-4 w-full md:w-1/3 p-8 bg-[#FFFFFF] rounded-lg">
+          <div className=" flex md:flex-col gap-4 w-full md:w-1/3 p-8 bg-[#FFFFFF] rounded-lg">
             {data.map((item) => (
               <div key={item.id} className="py-8">
                 <p className="font-sans font-medium text-[40px] leading-none">
