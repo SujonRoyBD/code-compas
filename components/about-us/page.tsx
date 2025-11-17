@@ -24,7 +24,7 @@ export default function AboutUs() {
           <p className='mt-2 text-center md:text-start'>That frustrates, wastes time, and rarely provides what you truly need. We do it differently: we listen, deliver what we promise, and ensure that IT works for your company - not the other way around.</p>
           <div className='flex py-8 md:py-[48px] justify-center md:justify-start'>
             <button className='py-2 px-5 bg-[#71D0FF] rounded-full'>Start the Intake</button>
-            <div className='border-4  rounded-full p-2 border-[#71D0FF] -ml-2'>
+            <div className='border-4 rounded-full p-2 border-[#71D0FF] -ml-2'>
               <ArrowTop />
             </div>
           </div>
