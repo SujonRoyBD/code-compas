@@ -1,4 +1,30 @@
+
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-geist-mono), "Helvetica Neue", Helvetica, ;
+}
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+
+
+
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -79,4 +105,4 @@ body {
   body {
     @apply bg-background text-foreground;
   }
-}
+} */
