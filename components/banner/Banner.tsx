@@ -84,14 +84,15 @@ export default function Banner() {
 
         {/* IMAGE + STATS */}
         <div className="mt-10 flex flex-col gap-6 md:flex-row">
-          <div className="w-full md:w-2/3 rounded-lg">
-            <Image
+          <div className="w-ful md:w-2/3 rounded-lg">
+            <Image 
               src="/Images/banner.jpg"
               alt="banner"
               height={100}
               width={954}
-              className="h-full w-full flex justify-center  object-cover rounded-lg"
-            />
+              className="h-full  rounded-lg"
+            
+            /> 
           </div>
 
           <div className=" flex md:flex-col gap-4 w-full md:w-1/3 p-8 bg-[#FFFFFF] rounded-lg">

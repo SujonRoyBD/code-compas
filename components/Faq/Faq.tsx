@@ -13,7 +13,7 @@ export default function Faq() {
   return (
     <div className='bg-[#F5F9FF]'>
       <div className='container py-10 md:py-[80px]'>
-        <div className="grid grid-cols-1  md:grid-cols-[1fr_3px_1fr] gap-[48px]  gap-6 items-center">
+        <div className="grid grid-cols-1  md:grid-cols-[1fr_3px_1fr] md:gap-[48px]  gap-6 items-center">
           {/* Left Section */}
           <div className="w-full ">
             <div className="flex items-center gap-3 ">
