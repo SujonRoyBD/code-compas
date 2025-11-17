@@ -121,6 +121,7 @@ export default function OurService() {
             </p>
           </div>
         </div>
+        <div className='border-2 border-[#DFE1E7] w-full h-1'></div>
         <div>
           {
             data.map((index) => {
@@ -164,7 +165,7 @@ export default function OurService() {
                         src={index.img}
                         width={364}
                         height={210}
-                        className="w-full md:w-[] lg:w-[364px] h-[210px] object-cover"
+                        className="w-full md:w-[] lg:w-[364px] h-[210px] object-cover mt-4 lg:mt-0 rounded-lg"
                         alt=""
                       />
                     )}
@@ -176,7 +177,7 @@ export default function OurService() {
                     </button>
                   </div>
                 </div>
-
+ <div className='border-2 border-[#DFE1E7] w-full h-1'></div>
 
               </div>
             })
