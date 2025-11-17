@@ -8,7 +8,7 @@ import ArrowTop from '../icon/ArrowTopIcon'
 export default function AboutUs() {
   return (
     <div className='bg-[#F1F1F1]'>
-      <div className='grid grid-cols-1 md:grid-cols-2 py-[40px] md:py-[100px] gap-[48px]  container'>
+      <div className='grid grid-cols-1 md:grid-cols-2 py-[40px] lg:py-[100px] gap-[48px]  container'>
         <div>
           <Image src="/Images/aboutUs.png" alt='about' height={534} width={616} className='h-full' />
         </div>

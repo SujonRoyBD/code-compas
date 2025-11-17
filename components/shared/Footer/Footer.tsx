@@ -64,7 +64,7 @@ export default function Footer() {
 
                     </div>
                 </div>
-                <div className='flex justify-between mt-[56px]'>
+                <div className=' lg:flex  justify-between pb-[52px]'>
                     <p>© 2025 Code Kompas
                         All Rights Reserved</p>
                     <p className='mb-[52px]'>Terms & Conditions

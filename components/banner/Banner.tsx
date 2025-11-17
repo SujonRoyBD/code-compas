@@ -13,7 +13,7 @@ const data = [
 export default function Banner() {
   return (
     <div className="bg-[#F1F1F1]">
-      <div className="container pt-[80px] pb-[80px]">
+      <div className="container pt-[80px] pb-[40px] md:pb-[80px]">
         <div className="grid grid-cols-1 md:grid-cols-7 gap-0 md:gap-2">
 
           {/* LEFT SECTION */}

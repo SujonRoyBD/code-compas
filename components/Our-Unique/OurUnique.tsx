@@ -8,7 +8,7 @@ import ArrowTop from '../icon/ArrowTopIcon'
 export default function OurUnique() {
   return (
     <div className='bg-[#F5F9FF]'>
-      <div className='grid grid-cols-1 md:grid-cols-2  gap-[14px]  container pt-[80px]'>
+      <div className='grid grid-cols-1 md:grid-cols-2  gap-[14px]  container pt-[40px] lg:pt-[80px]'>
 
         <div>
           <div>

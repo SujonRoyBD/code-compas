@@ -78,13 +78,13 @@ const data: ServiceItem[] = [
 
 export default function OurService() {
   return (
-    <section className="bg-[#F5F9FF] py-12">
+    <section className="bg-[#F5F9FF] py-[40px] lg:py-[100px]">
       <div className="container mx-auto px-4">
         {/* Header Section */}
 
 
         {/* Main Content */}
-        <div className="grid grid-cols-1  md:grid-cols-[1fr_3px_1fr]  lg:gap-[48px] py-9 gap-6 items-center">
+        <div className="grid grid-cols-1  md:grid-cols-[1fr_3px_1fr]  lg:gap-[48px]  gap-6 items-center">
           {/* Left Section */}
           <div className="w-full  ">
             <div className="flex items-center gap-3 mb-4">
@@ -121,7 +121,7 @@ export default function OurService() {
             </p>
           </div>
         </div>
-        <div className='border-2 border-[#DFE1E7] w-full h-1'></div>
+        <div className='border-2 border-[#DFE1E7] w-full h-1 mt-2'></div>
         <div>
           {
             data.map((index) => {
