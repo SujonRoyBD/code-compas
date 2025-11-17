@@ -14,7 +14,7 @@ const data = [
     },
     {
         id: 2,
-        img: "/Images/Optimizing Global.png",
+        img: "/Images/Streamlining.jpg",
         btn1: "AI agents",
         btn2: "Connecting Systems",
         btn3: "Building API ",
@@ -23,7 +23,7 @@ const data = [
     },
     {
         id: 3,
-        img: "/Images/Optimizing Global.png",
+        img: "/Images/Accelerating.jpg",
         btn1: "AI agents",
         btn2: "Connecting Systems",
         btn3: "Building API ",
@@ -32,7 +32,7 @@ const data = [
     },
     {
         id: 4,
-        img: "/Images/Optimizing Global.png",
+        img: "/Images/Accelerating.jpg",
         btn1: "AI agents",
         btn2: "Connecting Systems",
         btn3: "Building API ",
@@ -91,7 +91,7 @@ export default function Results() {
                         data.map((index) => {
                             return <div key={index.id} className='bg-[#FFFFFF] rounded-lg'>
                                 <div className=' p-8 '>
-                                    <Image src={index.img} alt='result' height={300} width={564} className='rounded-lg' />
+                                    <Image src={index.img} alt='result' height={300} width={564} className='rounded-lg w-full' />
                                     <div className='grid grid-cols-2 md:grid-cols-3 justify-between mt-8 mb-4 space-y-2'>
                                         <button className='px-2 md:px-6 py-3 bg-[#F8FAFB] rounded-full text-[#4A4C56] font-[GeistMono] text-[16px] font-medium leading-[1]'>{index.btn1}</button>
                                         <button className='px-2 md:px-6py-3 bg-[#F8FAFB] rounded-full text-[#4A4C56] font-[GeistMono] text-[16px] font-medium leading-[1]'>{index.btn2}</button>
