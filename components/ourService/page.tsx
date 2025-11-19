@@ -152,9 +152,9 @@ export default function OurService() {
 
 
 
-                      <div className='grid grid-cols-2 md:grid-cols-3 xl:grid-cols-3  gap-4'>
+                      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3  gap-4'>
                         <p className='px-6 py-3 bg-[#FFFFFF] rounded-full text-[12px] md:text-[16px]'>{index.btn1}</p>
-                        <p className='px-2 py-3 bg-[#FFFFFF] rounded-full text-[12px] md:text-[16px] '>{index.btn2}</p>
+                        <p className='px-6 lg:px-3 py-3 bg-[#FFFFFF] rounded-full text-[12px] md:text-[16px] '>{index.btn2}</p>
                         <p className='px-6 py-3 bg-[#FFFFFF] rounded-full text-[12px] md:text-[16px]'>{index.btn3}</p>
                       </div>
                     </div>
